@@ -85,7 +85,7 @@ PATH="$HOME/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./conf
   --extra-libs=-lm \
   --bindir="$HOME/bin" \
   --enable-gpl \
-  --enable-libfdk_aac \
+  --enable-libfdk-aac \
   --enable-libfreetype \
   --enable-libmp3lame \
   --enable-libopus \
