@@ -22,7 +22,7 @@ make install
 
 # libxh264
 cd ~/ffmpeg_sources
-git clone --depth 1 http://git.videolan.org/git/x264
+git clone --depth 1 https://code.videolan.org/videolan/x264
 cd x264
 PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./configure --prefix="$HOME/ffmpeg_build" --bindir="$HOME/bin" --enable-static
 make
